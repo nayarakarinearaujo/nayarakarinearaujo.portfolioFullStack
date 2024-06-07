@@ -9,6 +9,7 @@
     --cor-title:#910A67;
     --cor-subtitle:#910A67;
     --cor-hover: #acadb8a8;
+    --co-purple: #3C0753;
 
     --cor-title-highlight:  #720455;
 
@@ -56,7 +57,7 @@ img {
 }
 
 /* Styles Footer*/
-footer {
+footer p {
     padding: 20px;
     color: var(--cor-subtitle);
     background-color: var(--cor-body);

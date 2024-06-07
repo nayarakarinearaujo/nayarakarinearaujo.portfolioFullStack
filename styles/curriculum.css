@@ -1,19 +1,18 @@
 /*Styles Curriculum*/
 
-#curriculum{
-background-color:#e6e6e6 ;
-transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+#curriculum {
+    background-color: #e6e6e6;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .curriculum {
     display: flex;
     padding: 5% 15%;
-    /* align-items: center; */
     justify-content: space-between;
     gap: 82px;
 }
- 
-.curriculum-title{
+
+.curriculum-title {
     font-size: 2.25rem;
     font-family: var(--font-one);
     font-weight: 300;
@@ -22,11 +21,21 @@ transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
     margin-bottom: 10px;
 }
 
-.curriculum-subtitle{
+.curriculum-subtitle {
     font-size: 1.2rem;
     font-family: var(--font-one);
-    color:--cor-subtitle ;
+    color: var(--cor-subtitle);
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.curriculum-objetive {
+    font-size: 1.2rem;
+    font-family: var(--font-one);
+    color: var(--cor-text);
+    text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -34,12 +43,22 @@ transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
     font-size: 1rem;
     font-family: var(--font-two);
     color: var(--cor-text);
-    text-decoration: none;
     text-align: justify;
 }
 
-.curriculum a {
+.curriculum-text ul {
+    list-style: disc;
+}
+
+.curriculum-text ul li {
+    list-style-type: disc;
+}
+
+.curriculum-file {
     text-decoration: none;
-    color: var(--cor-terciaria);
-    background: var(--cor-text);
+    color: var(--cor-background);
+    background: var(--cor-title-highlight);
+    font-family: var(--font-two);
+    font-size: 1rem;
+    text-align: justify;
 }
