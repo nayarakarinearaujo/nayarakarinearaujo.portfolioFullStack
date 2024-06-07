@@ -1,0 +1,146 @@
+/* Styles Presentation */
+.presentation {
+    display: flex;
+    padding: 5% 5%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.presentation-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentation-title {
+    font-size: 2.25rem;    
+    font-family: var(--font-one);
+    text-align: center;
+}
+
+.title-highlight {
+    color: var(--cor-subtitle);
+}
+
+.presentation-text {
+    font-size: 1.5rem;
+    font-family: var(--font-two);
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.presentation-text a {
+    text-decoration: none;
+    color: var(--cor-subtitle);
+}
+
+.presentation-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.presentation-links-subtitle {
+    font-family: var(--font-one);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.presentation-links-button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-subtitle);
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-subtitle);
+    font-family: var(--font-two);
+}
+
+.presentation-links-button:hover {
+    background-color: var(--cor-hover);
+    border-radius: 20%;
+}
+
+/*Styles responsive*/
+
+@media (max-width: 1200px) {
+    .presentation {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentation-contet {
+        width: auto;
+    }
+
+    .presentation-title {
+        width: auto;
+    }
+
+    .presentation-conteudo-about {
+        width: auto;
+    }
+
+    .presentation-img {
+        width: 100%;
+        /* Define a largura da imagem como 100% */
+        margin-top: 20px;
+        /* Adiciona espaçamento superior */
+    }
+}
+
+@media (max-width: 992px) {
+
+    .presentation {
+        flex-direction: column;
+        /* Altera a direção dos itens para uma coluna */
+        padding: 5%;
+        /* Adiciona preenchimento interno */
+    }
+
+    .presentation-contet {
+        width: 100%;
+        /* Define a largura do conteúdo como 100% */
+    }
+
+    .presentation-img {
+        width: 100%;
+        /* Define a largura da imagem como 100% */
+        margin-top: 20px;
+        /* Adiciona espaçamento superior */
+    }
+
+    .apresentacao-links-button {
+        width: 100%;
+        /* Define a largura do botão como 100% */
+    }
+}
+
+
+@media (max-width: 576px) {
+    .presentation-title {
+        font-size: 1.5rem;
+        /* Reduz o tamanho da fonte do título */
+    }
+
+    .presentation-text {
+        font-size: 1rem;
+        /* Reduz o tamanho da fonte do texto */
+    }
+
+    .presentation-links-button {
+        font-size: 1rem;
+        /* Reduz o tamanho da fonte do botão */
+    }
+}

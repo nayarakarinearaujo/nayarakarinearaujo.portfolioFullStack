@@ -1,0 +1,126 @@
+.skills {
+    font-size: 1.5rem;
+    font-family: var(--font-one);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    /* Adiciona espaço abaixo da sessão Skills */
+    padding: 5%;
+}
+
+.skills-title {
+    text-align: center;
+    margin-bottom: 40px;
+    background: var(--cor-title);
+    /* Adiciona espaço abaixo*/
+}
+
+
+.skills-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Distribui os elementos igualmente ao longo da linha */
+
+}
+
+.skills-box {
+    margin-bottom: 20px;
+    /* Espaçamento inferior entre as caixas */
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: var(--cor-background);
+    display: flex;
+    /* Alterando para flex para os itens ficarem em linha */
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* Alinha os itens verticalmente */
+}
+
+.skills-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    /* Centraliza o conteúdo dentro da caixa */
+}
+
+.skills-box ul li {
+    margin-bottom: 10px;
+    /* Espaçamento inferior entre os itens */
+}
+
+.skills-name {
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--font-one);
+    color: var(--cor-subtitle);
+
+}
+
+.skills-img {
+    margin-right: 10px;
+    /* Adiciona espaçamento entre a imagem e o texto */
+}
+
+@media (max-width: 1200px) {
+    
+    .skills-box img {
+        max-width: 80px;
+        /* Define a largura máxima da imagem */
+        height: auto;
+        /* Mantém a proporção da imagem */
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .skills-line {
+        justify-content: center;
+        /* Centraliza os itens */
+    }
+
+    .skills-box {
+        width: 120px;
+        /* Reduz a largura das caixas */
+        height: 120px;
+        /* Reduz a altura das caixas */
+    }
+
+    .skills-name {
+        font-size: 0.8rem;
+        /* Reduz o tamanho da fonte */
+    }
+
+    .skills-box img {
+        max-width: 30px;
+        /* Define a largura máxima da imagem */
+        height: auto;
+        /* Mantém a proporção da imagem */
+    }
+}
+
+
+@media (max-width: 576px) {
+    .skills {
+        font-size: 1.5rem;
+        /* Reduz o tamanho da fonte da sessão Skills */
+        margin-bottom: 20px;
+        /* Reduz a margem inferior */
+    }
+
+    .skills-name {
+        font-size: 0.8rem;
+        /* Reduz o tamanho da fonte do nome de habilidades */
+    }
+
+    .skills img {
+        width: 30px;
+        /* Ajuste a largura conforme necessário */
+        height: auto;
+        /* Mantém a proporção da imagem */
+    }
+}

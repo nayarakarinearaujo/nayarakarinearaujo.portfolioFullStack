@@ -1,0 +1,53 @@
+/* Estilo para o cabeçalho */
+header {
+    padding: 2% 0% 0% 2%;
+}
+
+/* Estilo para o menu de navegação */
+.header ul {
+    display: flex;
+    gap: 30px; /* Diminuir o gap entre os itens do menu */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    list-style: none; /* Remove os marcadores da lista */
+}
+
+.header ul li a {
+    font-family: var(--font-two);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--cor-subtitle);
+    text-decoration: none;
+    padding: 5px 10px; /* Adiciona um pouco de padding aos links */
+
+}
+
+
+/*Styles Responsive*/
+@media (max-width: 1200px) {
+    .header {
+        padding: 10%;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .header {
+        flex-direction: column;
+        /* Altera a direção dos itens para uma coluna */
+        align-items: center;
+        /* Alinha os itens ao centro verticalmente */
+        gap: 20px;
+        /* Adiciona espaçamento entre os itens */
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        padding: 5%;
+        /* Reduz o preenchimento do cabeçalho */
+        gap: 10px;
+        /* Adiciona espaçamento entre os itens */
+    }
+}

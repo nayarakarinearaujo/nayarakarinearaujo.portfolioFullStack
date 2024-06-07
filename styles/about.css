@@ -1,0 +1,43 @@
+/* Estilos principais para a seção "about" */
+.about {
+    padding: 5% 10%;
+    background-color: var(--cor-background);
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--cor-background);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* sombra suave */
+    border-radius: 8px;
+    /* cantos arredondados */
+}
+
+.about-title {
+    font-size: 2.25rem;
+    font-family: var(--font-one);
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--cor-title);
+}
+
+.about-text {
+    font-size: 1rem;
+    font-family: var(--font-two);
+    line-height: 1.6;
+    /* espaçamento entre linhas */
+    color: var(--cor-text);
+    text-align: justify;
+    /* justificar texto */
+}
+
+/*Styles Responsive*/
+
+@media (max-width: 576px) {
+    .about-text {
+        font-size: 1rem;
+        /* Reduz o tamanho da fonte do texto */
+    }
+}

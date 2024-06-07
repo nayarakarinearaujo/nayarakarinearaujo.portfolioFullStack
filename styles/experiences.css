@@ -1,0 +1,36 @@
+/*Styles Experiences*/
+
+.experiences-title {
+    font-size: 1.5rem;
+    font-family: var(--font-one);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.experiences-subtitle {
+    font-size: 1rem;
+    font-family: var(--font-one);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.extracurricular-activities ul,
+.experiences-professional ul {
+    font-family: var(--font-two);
+    list-style-image: url('circulo-preenchido.png');
+    padding: 0;
+    margin: 10px 10px;
+    margin-top: 20px;
+}
+
+.extracurricular-activities li, 
+.experiences-professional li {
+    font-family: var(--font-one);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color:var(--cor-text) ;
+    font-size: 0.8rem;
+}
+

@@ -1,0 +1,67 @@
+/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root {
+    --cor-body:#030637;
+    --cor-text:#000;
+    --cor-background:#f9f9f9;
+    --cor-title:#910A67;
+    --cor-subtitle:#910A67;
+    --cor-hover: #acadb8a8;
+
+    --cor-title-highlight:  #720455;
+
+    --font-one: 'Krona One', sans-serif;
+    --font-two: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background: var(--cor-body);
+    /* color: var(--cor-secundaria); */
+    overflow-x: hidden;
+
+}
+
+h1, h2, h3, h4, p {
+
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Styles Sections */
+#presentation, #about, #skills, #experiences, #projects, #curriculum {
+    padding: 10px;
+    margin: 20px 0;
+    background-color: var(--cor-background);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles Footer*/
+footer {
+    padding: 20px;
+    color: var(--cor-subtitle);
+    background-color: var(--cor-body);
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
