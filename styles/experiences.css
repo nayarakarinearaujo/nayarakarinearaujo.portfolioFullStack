@@ -1,11 +1,11 @@
 /*Styles Experiences*/
 
 .experiences-title {
-    font-size: 1.5rem;
     font-family: var(--font-one);
-    text-align: center;
-    margin-top: 10px;
+    font-size: 2.25rem;    
     margin-bottom: 10px;
+    text-align: center;
+    color: var(--cor-title);
 }
 
 .experiences-subtitle {
@@ -13,6 +13,7 @@
     font-family: var(--font-one);
     margin-top: 10px;
     margin-bottom: 10px;
+    color: var(--cor-subtitle);
 }
 
 .extracurricular-activities ul,

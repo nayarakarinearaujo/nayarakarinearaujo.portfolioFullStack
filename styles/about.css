@@ -9,7 +9,7 @@
     margin: 0 auto;
     padding: 20px;
     background-color: var(--cor-background);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     /* sombra suave */
     border-radius: 8px;
     /* cantos arredondados */
@@ -28,7 +28,7 @@
     font-family: var(--font-two);
     line-height: 1.6;
     /* espaçamento entre linhas */
-    color: var(--cor-text);
+    color: var(--cor-body);
     text-align: justify;
     /* justificar texto */
 }

@@ -18,6 +18,7 @@
     font-size: 2.25rem;    
     font-family: var(--font-one);
     text-align: center;
+    color: var(--cor-body);
 }
 
 .title-highlight {
@@ -49,6 +50,7 @@
     font-family: var(--font-one);
     font-weight: 400;
     font-size: 1.5rem;
+    color: var(--cor-body);
 }
 
 .presentation-links-button {
@@ -71,6 +73,12 @@
     background-color: var(--cor-hover);
     border-radius: 20%;
 }
+
+
+.presentation-img {
+    width: 30%;
+}
+
 
 /*Styles responsive*/
 

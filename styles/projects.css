@@ -11,6 +11,12 @@
     padding-top: 10px;
 }
 
+#full-stack,
+#front-end,
+#back-end {
+    color: var(--cor-body);
+}
+
 
 /* Syles Section Projects */
 
@@ -45,6 +51,7 @@
     font-family: var(--font-one);
     font-weight: 400;
     font-size: 1.5rem;
+    color: var(--cor-body);
 }
 
 .project img {

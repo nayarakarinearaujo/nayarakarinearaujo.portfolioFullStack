@@ -1,5 +1,4 @@
-/*Styles Curriculum*/
-
+/* Styles Curriculum */
 #curriculum {
     background-color: #e6e6e6;
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -33,7 +32,7 @@
 .curriculum-objetive {
     font-size: 1.2rem;
     font-family: var(--font-one);
-    color: var(--cor-text);
+    color: var(--cor-body);
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -44,14 +43,8 @@
     font-family: var(--font-two);
     color: var(--cor-text);
     text-align: justify;
-}
-
-.curriculum-text ul {
-    list-style: disc;
-}
-
-.curriculum-text ul li {
-    list-style-type: disc;
+    list-style-image: url('circulo-preenchido.png');
+    padding-left: 20px; /* Adiciona padding para a lista */
 }
 
 .curriculum-file {
