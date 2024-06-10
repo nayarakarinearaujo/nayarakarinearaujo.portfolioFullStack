@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
-  
+
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -22,7 +22,8 @@
                 <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#experiences">Experiências</a></li>
                 <li><a href="#projects">Projetos</a></li>
-                <li><a href="#Curriculum">Currículo</a></li>
+                <li><a href="#curriculum">Currículo</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -666,12 +667,10 @@
                                 target="_blanck" rel="external">Link do Repositório do
                                 projeto</a>
                         </p>
-                            <img src="imagens/imagens-projetos/api-chamado.png" alt="Imagem da página inicial">
-                            <img src="imagens/imagens-projetos/tela-usuario.png"
-                                alt="Imagem da página login do usuário">
-                            <img src="imagens/imagens-projetos/tela-tecnico.png"
-                                alt="Imagem da página login do Técnico">
-                            
+                        <img src="imagens/imagens-projetos/api-chamado.png" alt="Imagem da página inicial">
+                        <img src="imagens/imagens-projetos/tela-usuario.png" alt="Imagem da página login do usuário">
+                        <img src="imagens/imagens-projetos/tela-tecnico.png" alt="Imagem da página login do Técnico">
+
                     </div>
 
                 </div>
@@ -732,15 +731,31 @@
         </section>
     </main>
 
-
+    <!-- Section Curriculum -->
+    <main id="contact">
+        <section class="contact-section">
+            <h1 class="contact-title">Contato</h1>
+            <h2 class="contact-subtitle">Entre em Contato</h2>
+            <p class="contact-text">Estou disponível para novos projetos e oportunidades. Sinta-se à vontade para entrar em contato comigo!</p>
+            <form id="contact-form" class="contact-form" action="https://formspree.io/f/meqyyezp"
+            method="POST">
+                <input type="text" name="name" id="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" id="email" placeholder="Seu Email" required>
+                <textarea name="message" id="message" placeholder="Sua Mensagem" required></textarea>
+                <button class="button-contact" type="submit" onclick="sendEmail(event)">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Section footer -->
     <footer>
         <p>&copy; 2024 Desenvolvido por Nayara Karine</p>
     </footer>
 
-    <script src="scripts/script.js" ></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="scripts/script.js"></script>
+
 </body>
 
 </html>
