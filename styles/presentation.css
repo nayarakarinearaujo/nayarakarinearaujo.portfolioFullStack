@@ -112,7 +112,6 @@
 }
 
 
-
 .presentation-img {
     width: 30%;
 }
@@ -184,7 +183,7 @@
         padding: 10px 20px;
         font-family: var(--font-one);
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: var(--cor-subtitle);
         background: var(--cor-body);
         text-decoration: none;
@@ -194,5 +193,10 @@
         margin-top: 5px;
         letter-spacing: 4px;
         box-shadow: 0 0 15px #720455; /* Alteração na cor do box-shadow */
+    }
+
+    .presentation-links-button {
+        width: 100%; /* Define a largura total */
+        max-width: 200px; /* Define a largura máxima */
     }
 }
