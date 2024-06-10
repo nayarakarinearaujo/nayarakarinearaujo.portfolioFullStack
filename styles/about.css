@@ -1,15 +1,16 @@
 /* Estilos principais para a seção "about" */
 .about {
     padding: 5% 10%;
-    background-color: var(--cor-background);
+    background: var(--cor-body);
 }
 
 .about-content {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: var(--cor-background);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background: var(--cor-body);
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 0 15px #720455; /* Alteração na cor do box-shadow */
     /* sombra suave */
     border-radius: 8px;
     /* cantos arredondados */
@@ -28,7 +29,7 @@
     font-family: var(--font-two);
     line-height: 1.6;
     /* espaçamento entre linhas */
-    color: var(--cor-body);
+    color: var(--cor-background);
     text-align: justify;
     /* justificar texto */
 }

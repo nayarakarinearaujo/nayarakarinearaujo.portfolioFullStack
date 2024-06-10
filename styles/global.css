@@ -58,11 +58,11 @@ img {
 
 /* Styles Footer*/
 footer p {
-    padding: 20px;
+    padding: 18px;
     color: var(--cor-subtitle);
     background-color: var(--cor-body);
     text-align: center;
-    font-family: var(--font-secundaria);
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-family: var(--font-two);
+    font-size: 1rem;
+    font-weight: 700;
 }

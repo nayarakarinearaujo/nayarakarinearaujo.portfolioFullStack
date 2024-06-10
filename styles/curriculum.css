@@ -1,15 +1,17 @@
 /* Styles Curriculum */
-#curriculum {
-    background-color: #e6e6e6;
+.curriculum {
+    background-color: var(--cor-body);
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    max-width: 1200px; /* Define a largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+    display: flex;
+    flex-direction: column; /* Altera o layout para coluna */
+    align-items: center; /* Centraliza os itens na horizontal */
+    padding: 5% 15%;
+    box-shadow: 0 0 15px #720455;
+
 }
 
-.curriculum {
-    display: flex;
-    padding: 5% 15%;
-    justify-content: space-between;
-    gap: 82px;
-}
 
 .curriculum-title {
     font-size: 2.25rem;
@@ -18,6 +20,8 @@
     color: var(--cor-title);
     text-align: center;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(145, 10, 103, 0.3); /* Adiciona sombra ao texto */
+
 }
 
 .curriculum-subtitle {
@@ -25,6 +29,7 @@
     font-family: var(--font-one);
     color: var(--cor-subtitle);
     text-align: center;
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -36,22 +41,54 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(3, 6, 55, 0.3); /* Adiciona sombra ao texto */
+
 }
 
 .curriculum-text {
     font-size: 1rem;
     font-family: var(--font-two);
-    color: var(--cor-text);
+    color: var(--cor-background);
     text-align: justify;
     list-style-image: url('circulo-preenchido.png');
     padding-left: 20px; /* Adiciona padding para a lista */
 }
 
-.curriculum-file {
+.curriculum-text li a {
+color: var(--cor-subtitle);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+
+.button-curriculum {
     text-decoration: none;
     color: var(--cor-background);
     background: var(--cor-title-highlight);
     font-family: var(--font-two);
     font-size: 1rem;
-    text-align: justify;
+    padding: 10px 20px; /* Ajuste conforme necessário */
+    border-radius: 4px ;
+    border-color: var(--cor-title-highlight);
+    transition: background-color 0.3s ease;
 }
+
+.button-curriculum:hover {
+    background: var(--cor-subtitle);
+    color: var(--cor-body);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--cor-subtitle), 
+                0 0 50px var(--cor-subtitle), 
+                0 0 100px var(--cor-subtitle),
+                0 0 200px var(--cor-subtitle);
+}
+
+.curriculum-file {
+    text-decoration: none;
+    color: var(--cor-background);
+    font-size: 1rem;
+} 

@@ -2,7 +2,7 @@
 
 #full-stack,
 #front-end {
-    background-color:#d1d0d0 ;
+    background-color:#e9e8e8 ;
     padding-top: 10px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .project:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px #720455; /* Alteração na cor do box-shadow */
     cursor: pointer;
     transform: translateY(-5px);
     /* Move o projeto para cima ao passar o mouse */
@@ -41,6 +41,7 @@
     margin-bottom: 10px;
     text-align: center;
     color: var(--cor-title);
+    text-shadow: 2px 2px 4px rgba(145, 10, 103, 0.3); /* Adiciona sombra ao texto */
 
 }
 
@@ -52,6 +53,8 @@
     font-weight: 400;
     font-size: 1.5rem;
     color: var(--cor-body);
+    text-shadow: 2px 2px 4px rgba(3, 6, 55, 0.3); /* Adiciona sombra ao texto */
+
 }
 
 .project img {

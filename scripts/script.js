@@ -17,3 +17,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+function toggleMenu() {
+    const menu = document.getElementById('nav-menu');
+    const hamburger = document.querySelector('.hamburger');
+    
+    menu.classList.toggle('active');
+    
+    if (menu.classList.contains('active')) {
+        hamburger.style.display = 'none'; // Esconde o ícone de hambúrguer
+    } else {
+        hamburger.style.display = 'block'; // Mostra o ícone de hambúrguer
+    }
+}

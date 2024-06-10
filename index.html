@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
+  
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -13,7 +14,10 @@
     <!-- Sessão Header -->
     <header>
         <nav class="header">
-            <ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; <!-- Ícone de hambúrguer -->
+            </div>
+            <ul id="nav-menu">
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#experiences">Experiências</a></li>
@@ -22,6 +26,7 @@
             </ul>
         </nav>
     </header>
+
 
     <!-- Section Presentation -->
     <main id="presentation" class="presentation">
@@ -66,7 +71,7 @@
                 SP.<br>
                 Sou estudante de Engenharia de Software, apaixonada por tecnologia e seu impacto positivo no mundo. Essa
                 paixão me levou a estudar diversas linguagens e tecnologias. Após quase um ano de estudos intensos,
-                migrei para a área de tecnologia como Analista de Desenvolvimento de Software.
+                migrei para a área de tecnologia como Estariágiari em Analista de Desenvolvimento de Software.
                 <br>
                 <br>
                 Inicialmente, foquei no Front-end, mas recentemente me aventurei no Back-end com Java, no programa Elas
@@ -75,8 +80,8 @@
                 Back-end.
                 <br>
                 <br>
-                Minhas habilidades incluem Java, Spring, MySQL, JavaScript, HTML, CSS, Git e GitHub. Sou proativa,
-                organizada e adoro desafios. Meu objetivo é crescer e me tornar uma Software Engineer completa e
+                Sou proativa, organizada e adoro desafios. Meu objetivo é crescer e me tornar uma Software Engineer
+                completa e
                 versátil.
             </p>
         </section>
@@ -189,7 +194,7 @@
 
     <!-- Section Experiences -->
     <main id="experiences">
-        <section class="experiences">
+        <section class="experiences-content">
             <h1 class="experiences-title">Experiências</h1>
             <div class="experiences-professional">
                 <h2 class="experiences-subtitle">EXPERIÊNCIA PROFISSIONAL</h2>
@@ -264,10 +269,9 @@
                             rel="external">Link do Repositório</a>
                     </p>
 
-                    <!-- <img class="projeto-imagem"
+                    <img class="projeto-imagem"
                         src="imagens/imagens-projetos/ladingpage-tratador-de-piscinas.vercel.app_.png"
-                        alt="Imagem do projeto"> -->
-
+                        alt="Imagem do projeto">
 
                 </div>
             </div>
@@ -365,7 +369,8 @@
                             rel="external">Link do Repositório</a>
                     </p>
 
-                    <img src="imagens/imagens-projetos/xJ7GKCFidu(800).png" alt="">
+                    <img src="imagens/imagens-projetos/form-dev.png"
+                        alt="Foto da página inicial do projeto de cadastro de Devs">
                 </div>
             </div>
             <!-- 
@@ -432,8 +437,7 @@
                             target="_blanck" rel="external">Link do Repositório</a>
                     </p>
 
-                    <img src="imagens/imagens-projetos/nayarakarinearaujo.github.io_challenge-one-01_(500).png"
-                        alt="Imagem do projeto">
+                    <img src="imagens/imagens-projetos/decodificador.png" alt="Imagem do projeto">
                 </div>
             </div>
 
@@ -483,7 +487,7 @@
                             rel="external">Link do Repositório</a>
                     </p>
 
-                    <img src="imagens/imagens-projetos/jogo-five-dun.vercel.app_ (3)(500).png" alt="Imagem do projeto">
+                    <img src="imagens/imagens-projetos/jogo-n-secreto.png" alt="Imagem do projeto">
 
                 </div>
             </div>
@@ -611,11 +615,10 @@
                             do reposiório do
                             projeto</a>
                     </p>
-
-                    <img src="imagens/imagens-projetos/img-portaltech.jpg" alt="Imagem da Página inicial ">
-                    <img src="imagens/imagens-projetos/login-portaltech.jpg" alt="Imagem da parte do Login">
-                    <img src="imagens/imagens-projetos/cadastro-portaltech.jpeg" alt="Imagem da parte do cadastro">
-
+                    <div class="carousel">
+                        <img src="imagens/imagens-projetos/img-portaltech.jpg" alt="Imagem da Página inicial ">
+                        <img src="imagens/imagens-projetos/login-portaltech.jpg" alt="Imagem da parte do Login">
+                    </div>
                 </div>
             </div>
 
@@ -663,9 +666,12 @@
                                 target="_blanck" rel="external">Link do Repositório do
                                 projeto</a>
                         </p>
-
-                        <img src="imagens/imagens-projetos/api-chamado.png" alt="Imagem da página inicial">
-
+                            <img src="imagens/imagens-projetos/api-chamado.png" alt="Imagem da página inicial">
+                            <img src="imagens/imagens-projetos/tela-usuario.png"
+                                alt="Imagem da página login do usuário">
+                            <img src="imagens/imagens-projetos/tela-tecnico.png"
+                                alt="Imagem da página login do Técnico">
+                            
                     </div>
 
                 </div>
@@ -678,13 +684,13 @@
 
     <!-- Section Curriculum -->
     <main id="curriculum">
-        <section>
+        <section class="curriculum">
             <h1 class="curriculum-title">Currículo</h1>
             <p class="curriculum-objetive">Objetivo:Desenvolvedora Full stack</p>
             <h2 class="curriculum-subtitle">Estudos</h2>
             <div>
                 <ul class="curriculum-text">
-                    <li>Técnico em informática- Fitel - Campinas, 2011<a
+                    <li>Técnico em informática- Fitel - Campinas, 2011 <a
                             href="https://drive.google.com/file/d/1NGX2CnnlvF5XcfCf1RAmm8Sadex_rHA4/view?usp=sharing"
                             target="_blanck" rel="external">com certificado</a> </li>
                     <br>
@@ -704,15 +710,25 @@
                     <li>Programa Elas Tech: JAVA - SoulCode com PagBank - Março 2024 /Maio 2024</li>
                 </ul>
             </div>
-            
+
             <h2 class="curriculum-subtitle">Abaixo está meu currículo para download: </h2>
-            <ul>
+
+            <div class="curriculum-button-container button-container">
+                <button class="button-curriculum">
+                    <a class="curriculum-file" href="arquivos/Nayara Karine da Silva Araújo-1.docx.pdf"
+                        download="Nayara Karine da Silva Araújo.docx.pdf" type="application pdf" target="_blank"
+                        rel="external"><strong class="titulo-destaque">Currículo</strong>
+                    </a>
+                </button>
+            </div>
+
+            <!-- <ul>
                 <li><a class="curriculum-file" href="arquivos/Nayara Karine da Silva Araújo-1.docx.pdf"
                         download="Nayara Karine da Silva Araújo.docx.pdf" type="application pdf" target="_blanck"
                         rel="external"><strong class="titulo-destaque">Currículo</strong>
                     </a>
                 </li>
-            </ul>
+            </ul> -->
         </section>
     </main>
 
@@ -723,8 +739,8 @@
         <p>&copy; 2024 Desenvolvido por Nayara Karine</p>
     </footer>
 
-
-    <script src="scripts/script.js"></script>
+    <script src="scripts/script.js" ></script>
+    
 </body>
 
 </html>

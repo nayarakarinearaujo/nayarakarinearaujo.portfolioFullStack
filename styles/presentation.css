@@ -19,6 +19,7 @@
     font-family: var(--font-one);
     text-align: center;
     color: var(--cor-body);
+    
 }
 
 .title-highlight {
@@ -47,11 +48,43 @@
 }
 
 .presentation-links-subtitle {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
     font-family: var(--font-one);
     font-weight: 400;
     font-size: 1.5rem;
-    color: var(--cor-body);
+    color: var(--cor-subtitle);
+    background: var(--cor-body);
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 5px;
+    letter-spacing: 4px;
+    box-shadow: 0 0 15px #720455; /* Alteração na cor do box-shadow */
+
 }
+
+/* .presentation-links-subtitle:hover {
+    background: var(--cor-subtitle);
+    color: var(--cor-body);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--cor-subtitle), 
+                0 0 50px var(--cor-subtitle), 
+                0 0 100px var(--cor-subtitle),
+                0 0 200px var(--cor-subtitle);
+} */
+
+
+/* .presentation-links-subtitle {
+    font-family: var(--font-one);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--cor-subtitle);
+    background: var(--cor-body);
+    
+} */
 
 .presentation-links-button {
     display: flex;
@@ -70,9 +103,15 @@
 }
 
 .presentation-links-button:hover {
-    background-color: var(--cor-hover);
-    border-radius: 20%;
+    background: var(--cor-subtitle);
+    color: var(--cor-body);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--cor-subtitle), 
+                0 0 50px var(--cor-subtitle), 
+                0 0 100px var(--cor-subtitle),
+                0 0 200px var(--cor-subtitle);
 }
+
 
 
 .presentation-img {
@@ -100,12 +139,6 @@
         width: auto;
     }
 
-    .presentation-img {
-        width: 100%;
-        /* Define a largura da imagem como 100% */
-        margin-top: 20px;
-        /* Adiciona espaçamento superior */
-    }
 }
 
 @media (max-width: 992px) {
@@ -122,12 +155,6 @@
         /* Define a largura do conteúdo como 100% */
     }
 
-    .presentation-img {
-        width: 100%;
-        /* Define a largura da imagem como 100% */
-        margin-top: 20px;
-        /* Adiciona espaçamento superior */
-    }
 
     .apresentacao-links-button {
         width: 100%;
