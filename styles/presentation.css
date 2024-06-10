@@ -63,7 +63,6 @@
     margin-top: 5px;
     letter-spacing: 4px;
     box-shadow: 0 0 15px #720455; /* Alteração na cor do box-shadow */
-
 }
 
 /* .presentation-links-subtitle:hover {
@@ -177,5 +176,23 @@
     .presentation-links-button {
         font-size: 1rem;
         /* Reduz o tamanho da fonte do botão */
+    }
+
+    .presentation-links-subtitle {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        font-family: var(--font-one);
+        font-weight: 400;
+        font-size: 1rem;
+        color: var(--cor-subtitle);
+        background: var(--cor-body);
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: 0.5s;
+        margin-top: 5px;
+        letter-spacing: 4px;
+        box-shadow: 0 0 15px #720455; /* Alteração na cor do box-shadow */
     }
 }

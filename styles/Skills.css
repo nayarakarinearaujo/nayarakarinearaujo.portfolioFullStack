@@ -97,10 +97,23 @@
     }
 }
 
+
 @media (max-width: 576px) {
     .skills {
-        font-size: 1.5rem;
+        font-size: 1rem; /* Reduzido o tamanho da fonte */
         margin-bottom: 20px;
+    }
+
+    .skills-line {
+        flex-direction: column; /* Alterado para coluna */
+        align-items: center; /* Centraliza os itens na horizontal */
+        gap: 10px; /* Reduzido o espaçamento entre as caixas */
+    }
+
+    .skills-box {
+        width: 100%; /* Define a largura total */
+        max-width: 200px; /* Define a largura máxima */
+        height: auto; /* Altura automática */
     }
 
     .skills-name {
