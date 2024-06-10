@@ -113,7 +113,7 @@
 
 
 .presentation-img {
-    width: 30%;
+    max-width: 40%;
 }
 
 
@@ -168,12 +168,12 @@
     }
 
     .presentation-text {
-        font-size: 1rem;
+        font-size: 1.2rem;
         /* Reduz o tamanho da fonte do texto */
     }
 
     .presentation-links-button {
-        font-size: 1rem;
+        font-size: 1.2rem;
         /* Reduz o tamanho da fonte do botão */
     }
 
