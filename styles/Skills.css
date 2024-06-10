@@ -46,7 +46,7 @@
 
 .skills-box ul {
     list-style: none;
-    padding: 0;
+    padding: 5px;
     margin: 0;
     text-align: center;
 }
@@ -123,5 +123,43 @@
     .skills-box img {
         max-width: 50%;
         height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .skills {
+        font-size: 0.875rem; /* Reduz ainda mais o tamanho da fonte */
+        padding: 5%; /* Mantém o padding */
+    }
+
+    .skills-title {
+        margin-bottom: 20px; /* Reduz o espaço inferior */
+        padding: 8px; /* Ajusta o padding */
+    }
+
+    #skills h1 {
+        font-size: 1.5rem; /* Reduz o tamanho da fonte */
+        margin-bottom: 15px; /* Reduz o espaço inferior */
+    }
+
+    .skills-line {
+        flex-direction: column; /* Mantém a coluna */
+        align-items: center; /* Centraliza os itens na horizontal */
+        gap: 8px; /* Reduz ainda mais o espaçamento entre as caixas */
+    }
+
+    .skills-box {
+        width: 100%; /* Mantém a largura total */
+        max-width: 180px; /* Ajusta a largura máxima */
+        height: auto; /* Mantém a altura automática */
+    }
+
+    .skills-name {
+        font-size: 0.75rem; /* Reduz o tamanho da fonte */
+    }
+
+    .skills-box img {
+        max-width: 45%; /* Ajusta a largura máxima das imagens */
+        height: auto; /* Mantém a altura automática */
     }
 }
