@@ -6,17 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
 
+    <link rel="shortcut icon" href="imagens/logo.N.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
 
-    <!-- Sessão Header -->
+    <!-- Section Header -->
     <header>
         <nav class="header">
-            <div class="hamburger" onclick="toggleMenu()">
-                &#9776; <!-- Ícone de hambúrguer -->
+
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">
+                    <img src="imagens/logo.N.png" alt="Logo">
+                </a>
             </div>
+
+            <!-- Icon de hambúrguer -->
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+
+            <!-- Section Nav -->
             <ul id="nav-menu">
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#skills">Habilidades</a></li>
@@ -271,8 +283,7 @@
                     </p>
                     <br>
 
-                    <img class="projeto-imagem-piscineiro"
-                        src="imagens/imagens-projetos/gjpiscinaedaude.png"
+                    <img class="projeto-imagem-piscineiro" src="imagens/imagens-projetos/gjpiscinaedaude.png"
                         alt="Imagem do projeto">
 
                 </div>
@@ -323,11 +334,10 @@
                     <p>
                         <a href="https://github.com/nayarakarinearaujo/itamar.eletrohelp" target="_blanck"
                             rel="external">Link do Repositório</a>
-                        </p>
+                    </p>
                     <br>
-                    <img class="projeto-imagem-tecni"
-                    src="imagens/imagens-projetos/itamarmaquinas.png"
-                    alt="Imagem do projeto">
+                    <img class="projeto-imagem-tecni" src="imagens/imagens-projetos/itamarmaquinas.png"
+                        alt="Imagem do projeto">
                 </div>
             </div>
 
@@ -742,9 +752,9 @@
         <section class="contact-section">
             <h1 class="contact-title">Contato</h1>
             <h2 class="contact-subtitle">Entre em Contato</h2>
-            <p class="contact-text">Estou disponível para novos projetos e oportunidades. Sinta-se à vontade para entrar em contato comigo!</p>
-            <form id="contact-form" class="contact-form" action="https://formspree.io/f/meqyyezp"
-            method="POST">
+            <p class="contact-text">Estou disponível para novos projetos e oportunidades. Sinta-se à vontade para entrar
+                em contato comigo!</p>
+            <form id="contact-form" class="contact-form" action="https://formspree.io/f/meqyyezp" method="POST">
                 <input type="text" name="name" id="name" placeholder="Seu Nome" required>
                 <input type="email" name="email" id="email" placeholder="Seu Email" required>
                 <textarea name="message" id="message" placeholder="Sua Mensagem" required></textarea>

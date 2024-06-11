@@ -9,6 +9,14 @@ header {
     display: flex; 
     align-items: center;
     min-height: 60px; /* Definindo uma altura mínima */
+    justify-content: space-between;
+}
+
+/* Estilo para o logo */
+.logo img {
+    max-height: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    width: auto;
 }
 
 /* Estilo para o menu de navegação */
@@ -136,4 +144,3 @@ header {
         gap: 5px; 
     }
 }
-
