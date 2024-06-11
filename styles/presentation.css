@@ -32,15 +32,6 @@
     text-decoration: none;
     text-align: center;
     font-weight: 500;
-    margin: 0 auto;
-    padding: 1rem;
-    max-width: 800px; /* Define a largura máxima para o contêiner */
-}
-
-.presentation-text-p {
-    text-align: justify; /* Distribui o texto de forma justificada */
-    margin: 0;
-    line-height: 1.6; /* Ajusta o espaçamento entre linhas para melhor legibilidade */
 }
 
 .presentation-text a {
@@ -177,12 +168,8 @@
     }
 
     .presentation-text {
-        font-size: 1.2rem; /* Reduz o tamanho da fonte em telas menores */
-        padding: 0.5rem; /* Ajusta o padding em telas menores */
-    }
-    
-    .presentation-text-p {
-        line-height: 1.4; /* Ajusta o espaçamento entre linhas para telas menores */
+        font-size: 1.2rem;
+        /* Reduz o tamanho da fonte do texto */
     }
 
     .presentation-links-button {
