@@ -62,28 +62,8 @@
     transition: 0.5s;
     margin-top: 5px;
     letter-spacing: 4px;
-    box-shadow: 0 0 15px #720455; /* Alteração na cor do box-shadow */
+    box-shadow: 0 0 15px #720455; 
 }
-
-/* .presentation-links-subtitle:hover {
-    background: var(--cor-subtitle);
-    color: var(--cor-body);
-    border-radius: 5px;
-    box-shadow: 0 0 10px var(--cor-subtitle), 
-                0 0 50px var(--cor-subtitle), 
-                0 0 100px var(--cor-subtitle),
-                0 0 200px var(--cor-subtitle);
-} */
-
-
-/* .presentation-links-subtitle {
-    font-family: var(--font-one);
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: var(--cor-subtitle);
-    background: var(--cor-body);
-    
-} */
 
 .presentation-links-button {
     display: flex;
@@ -143,20 +123,16 @@
 
     .presentation {
         flex-direction: column;
-        /* Altera a direção dos itens para uma coluna */
         padding: 5%;
-        /* Adiciona preenchimento interno */
     }
 
     .presentation-contet {
         width: 100%;
-        /* Define a largura do conteúdo como 100% */
     }
 
 
     .apresentacao-links-button {
         width: 100%;
-        /* Define a largura do botão como 100% */
     }
 }
 
@@ -164,17 +140,14 @@
 @media (max-width: 576px) {
     .presentation-title {
         font-size: 1.5rem;
-        /* Reduz o tamanho da fonte do título */
     }
 
     .presentation-text {
         font-size: 1.2rem;
-        /* Reduz o tamanho da fonte do texto */
     }
 
     .presentation-links-button {
         font-size: 1.2rem;
-        /* Reduz o tamanho da fonte do botão */
     }
 
     .presentation-links-subtitle {
@@ -192,11 +165,11 @@
         transition: 0.5s;
         margin-top: 5px;
         letter-spacing: 4px;
-        box-shadow: 0 0 15px #720455; /* Alteração na cor do box-shadow */
+        box-shadow: 0 0 15px #720455; 
     }
 
     .presentation-links-button {
-        width: 100%; /* Define a largura total */
-        max-width: 200px; /* Define a largura máxima */
+        width: 100%; 
+        max-width: 200px; 
     }
 }

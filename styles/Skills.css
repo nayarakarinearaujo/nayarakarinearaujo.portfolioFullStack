@@ -1,3 +1,5 @@
+/* Styles Skills */
+
 .skills {
     font-size: 1.5rem;
     font-family: var(--font-one);
@@ -39,8 +41,8 @@
     background-color: var(--cor-background);
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; 
+    align-items: center; 
     box-shadow: 0 0 15px #720455;
 }
 
@@ -100,20 +102,20 @@
 
 @media (max-width: 576px) {
     .skills {
-        font-size: 1rem; /* Reduzido o tamanho da fonte */
+        font-size: 1rem; 
         margin-bottom: 20px;
     }
 
     .skills-line {
-        flex-direction: column; /* Alterado para coluna */
-        align-items: center; /* Centraliza os itens na horizontal */
-        gap: 10px; /* Reduzido o espaçamento entre as caixas */
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
     }
 
     .skills-box {
-        width: 100%; /* Define a largura total */
-        max-width: 200px; /* Define a largura máxima */
-        height: auto; /* Altura automática */
+        width: 100%; 
+        max-width: 200px; 
+        height: auto; 
     }
 
     .skills-name {
@@ -128,38 +130,38 @@
 
 @media (max-width: 480px) {
     .skills {
-        font-size: 0.875rem; /* Reduz ainda mais o tamanho da fonte */
-        padding: 5%; /* Mantém o padding */
+        font-size: 0.875rem; 
+        padding: 5%; 
     }
 
     .skills-title {
-        margin-bottom: 20px; /* Reduz o espaço inferior */
-        padding: 8px; /* Ajusta o padding */
+        margin-bottom: 20px; 
+        padding: 8px; 
     }
 
     #skills h1 {
-        font-size: 1.5rem; /* Reduz o tamanho da fonte */
-        margin-bottom: 15px; /* Reduz o espaço inferior */
+        font-size: 1.5rem; 
+        margin-bottom: 15px; 
     }
 
     .skills-line {
-        flex-direction: column; /* Mantém a coluna */
-        align-items: center; /* Centraliza os itens na horizontal */
-        gap: 8px; /* Reduz ainda mais o espaçamento entre as caixas */
+        flex-direction: column; 
+        align-items: center; 
+        gap: 8px; 
     }
 
     .skills-box {
-        width: 100%; /* Mantém a largura total */
-        max-width: 180px; /* Ajusta a largura máxima */
-        height: auto; /* Mantém a altura automática */
+        width: 100%; 
+        max-width: 180px; 
+        height: auto; 
     }
 
     .skills-name {
-        font-size: 0.75rem; /* Reduz o tamanho da fonte */
+        font-size: 0.75rem; 
     }
 
     .skills-box img {
-        max-width: 45%; /* Ajusta a largura máxima das imagens */
-        height: auto; /* Mantém a altura automática */
+        max-width: 45%; 
+        height: auto; 
     }
 }

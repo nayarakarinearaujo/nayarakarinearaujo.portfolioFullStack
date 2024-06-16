@@ -2,11 +2,11 @@
 .contact-section {
     background-color: var(--cor-background);
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-    max-width: 1200px; /* Define a largura máxima do contêiner */
-    margin: 0 auto; /* Centraliza o contêiner na página */
+    max-width: 1200px; 
+    margin: 0 auto;
     display: flex;
-    flex-direction: column; /* Altera o layout para coluna */
-    align-items: center; /* Centraliza os itens na horizontal */
+    flex-direction: column; 
+    align-items: center; 
     padding: 5% 15%;
     box-shadow: 0 0 15px #720455;
 }
@@ -18,7 +18,7 @@
     color: var(--cor-title);
     text-align: center;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(145, 10, 103, 0.3); /* Adiciona sombra ao texto */
+    text-shadow: 2px 2px 4px rgba(145, 10, 103, 0.3); 
 }
 
 .contact-subtitle {
@@ -29,7 +29,7 @@
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(3, 6, 55, 0.3); /* Adiciona sombra ao texto */
+    text-shadow: 2px 2px 4px rgba(3, 6, 55, 0.3);
 }
 
 .contact-text {
@@ -37,75 +37,65 @@
     font-family: var(--font-two);
     color: var(--cor-body);
     text-align: justify;
-    padding-left: 20px; /* Adiciona padding para a lista */
-    background-color: #f9f9f9; /* Adiciona uma cor de fundo */
-    border-left: 5px solid #720455; /* Adiciona uma borda esquerda */
-    padding: 15px; /* Adiciona espaço interno */
-    margin-bottom: 20px; /* Adiciona espaço inferior */
-    box-shadow: 0 0 5px #720455; /* Aqui está a cor definida para a sombra */
-    line-height: 1.6; /* Define a altura da linha para melhor legibilidade */
-    border-radius: 8px; /* Adiciona uma borda arredondada */
+    padding-left: 10px; 
+    background-color: #f9f9f9; 
+    border-left: 5px solid #720455; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 0 5px #720455;
+    line-height: 1.6; 
+    border-radius: 8px; 
 }
-
 .contact-text p {
-    margin: 0; /* Remove as margens dos parágrafos dentro de .contact-text */
+    margin: 0; 
 }
 
 .contact-text::before {
-    content: '💬'; /* Adiciona um emoji como marcador */
+    content: '💬'; 
     display: inline-block;
-    margin-right: 10px; /* Adiciona espaço à direita do marcador */
-    font-size: 1.5rem; /* Tamanho do emoji */
-    color: #720455; /* Cor do emoji */
+    margin-right: 10px; 
+    font-size: 1.5rem;
+    color: #720455; 
 }
 
 .contact-form {
-    width: 100%; /* Define a largura do formulário */
-    max-width: 500px; /* Define a largura máxima do formulário */
-    margin-top: 20px; /* Adiciona um espaço superior */
+    width: 100%; 
+    max-width: 500px; 
+    margin-top: 20px; 
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%; /* Define a largura dos inputs e textarea */
-    padding: 10px; /* Adiciona espaço interno */
-    margin-bottom: 15px; /* Adiciona espaço inferior */
-    border: 1px solid #ccc; /* Adiciona uma borda */
-    border-radius: 5px; /* Adiciona borda arredondada */
-    font-size: 16px; /* Define o tamanho da fonte */
-    transition: border-color 0.3s ease; /* Adiciona uma transição suave */
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px;
+    transition: border-color 0.3s ease; 
 }
 
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #720455; /* Altera a cor da borda ao passar o mouse ou focar */
+    border-color: #720455;
 background: #5f0a4836;
 }
 
 
 .button-contact {
-    width: 100%; /* Define a largura do botão */
-    padding: 12px; /* Ajusta o espaçamento interno */
-    background-color: #720455; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Adiciona borda arredondada */
-    font-size: 16px; /* Define o tamanho da fonte */
-    cursor: pointer; /* Altera o cursor ao passar por cima */
+    width: 100%; 
+    padding: 12px; 
+    background-color: #720455; 
+    color: #fff;
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
 }
 
 .button-contact:hover {
-    background-color: #4e0132; /* Cor de fundo ao passar o mouse */
+    background-color: #4e0132; 
 }
 
-/* .button-contact:hover {
-    background: var(--cor-subtitle);
-    color: var(--cor-body);
-    border-radius: 5px;
-    box-shadow: 0 0 10px var(--cor-subtitle), 
-                0 0 50px var(--cor-subtitle), 
-                0 0 100px var(--cor-subtitle),
-                0 0 200px var(--cor-subtitle);
-} */

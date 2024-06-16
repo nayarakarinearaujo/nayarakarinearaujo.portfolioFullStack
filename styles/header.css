@@ -1,38 +1,42 @@
-/* Estilo para o cabeçalho */
+/* Styles Header */
+
 header {
     padding: 2% 0% 0% 2%;
-    background-color: var(--cor-header-background); /* Adicione um fundo ao cabeçalho */
+    background-color: var(--cor-header-background); 
 }
 
-/* Contêiner do cabeçalho */
 .header {
     display: flex; 
     align-items: center;
-    min-height: 60px; /* Definindo uma altura mínima */
+    min-height: 60px; 
     justify-content: space-between;
 }
 
-/* Estilo para o logo */
+/* Style logo */
 .logo img {
-    max-height: 50px; /* Ajuste o tamanho conforme necessário */
+    max-height: 50px; 
     height: auto;
     width: auto;
 }
 
-/* Estilo para o menu de navegação */
+/* Style nav */
 .header ul {
     display: flex;
     gap: 30px;
-    padding: 0; 
-    margin: 0; 
-    list-style: none; 
-    margin-left: auto; 
-    display: none; /* Esconder o menu por padrão */
-    flex-direction: column; /* Mostrar em coluna em telas menores */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: auto;
+    display: none; 
+    flex-direction: column; 
 }
 
 .header ul.active {
-    display: flex; /* Mostrar o menu quando ativo */
+    display: flex; 
+}
+
+.header ul li {
+    margin: 5px; 
 }
 
 .header ul li a {
@@ -41,13 +45,13 @@ header {
     font-weight: 700;
     color: var(--cor-subtitle);
     text-decoration: none;
-    padding: 5px 10px; 
+    padding: 5px 10px;
     text-align: right;
+    display: block; 
 }
 
 .header ul li a:hover {
-    font-size: 1.05rem; /* Aumenta o tamanho da fonte ao passar o mouse */
-    padding: 5px 10px;
+    font-size: 1.03rem; 
     background: var(--cor-subtitle);
     color: var(--cor-body);
     border-radius: 5px;
@@ -57,18 +61,19 @@ header {
                 0 0 200px var(--cor-subtitle);
 }
 
-/* Ícone de hambúrguer */
+
+/* Ícon de hambúrguer */
 .hamburger {
     display: none;
     font-size: 24px;
     cursor: pointer;
     color: #24d4fc;
-    margin-right: auto; /* Coloca o ícone no canto esquerdo */
+    margin-right: auto; 
 }
 
 /* Styles Responsive */
 
-/* Para telas menores que 1200px */
+/* < 1200px */
 @media (max-width: 1200px) {
     .header {
         flex-direction: column; 
@@ -77,14 +82,14 @@ header {
     }
 
     .header ul {
-        display: none; /* Esconder o menu por padrão em telas menores */
-        flex-direction: column; /* Mostrar em coluna em telas menores */
+        display: none; 
+        flex-direction: column; 
         gap: 10px;
         margin-left: 0; 
     }
 
     .header ul.active {
-        display: flex; /* Mostrar o menu quando ativo */
+        display: flex; 
     }
 
     .header ul li a {
@@ -92,42 +97,42 @@ header {
     }
 
     .hamburger {
-        display: block; /* Mostrar o ícone de hambúrguer */
-        align-self: flex-start; /* Posiciona o ícone à esquerda */
+        display: block; 
+        align-self: flex-start; 
     }
 }
 
-/* Para telas maiores que 1200px */
+/* > 1200px */
 @media (min-width: 1201px) {
     .header {
-        flex-direction: row; /* Disposição em linha para telas maiores */
+        flex-direction: row; 
         justify-content: space-between;
         align-items: center;
         padding: 2% 0% 0% 2%;
     }
 
     .header ul {
-        display: flex; /* Mostrar o menu por padrão em telas maiores */
-        flex-direction: row; /* Mostrar em linha em telas maiores */
+        display: flex; 
+        flex-direction: row; 
         gap: 30px;
         margin-left: auto; 
     }
 
     .hamburger {
-        display: none; /* Esconder o ícone de hambúrguer em telas maiores */
+        display: none; 
     }
 }
 
 @media (max-width: 992px) {
     .header ul {
-        display: none; /* Esconder o menu por padrão em telas menores */
-        flex-direction: column; /* Mostrar em coluna em telas menores */
+        display: none; 
+        flex-direction: column;
         gap: 10px;
         margin-left: 0; 
     }
 
     .header ul.active {
-        display: flex; /* Mostrar o menu quando ativo */
+        display: flex; 
     }
 
     .header ul li a {

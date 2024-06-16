@@ -5,11 +5,8 @@
     margin: 0 auto;
     padding: 20px;
     background: var(--cor-body);
-    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
-    box-shadow: 0 0 15px #720455; /* Alteração na cor do box-shadow */
-    /* sombra suave */
+    box-shadow: 0 0 15px #720455; 
     border-radius: 8px;
-    /* cantos arredondados */
 }
 
 .experiences-title {
@@ -18,8 +15,7 @@
     margin-bottom: 10px;
     text-align: center;
     color: var(--cor-title);
-    text-shadow: 2px 2px 4px rgba(145, 10, 103, 0.3); /* Adiciona sombra ao texto */
-
+    text-shadow: 2px 2px 4px rgba(145, 10, 103, 0.3); 
 }
 
 .experiences-subtitle {

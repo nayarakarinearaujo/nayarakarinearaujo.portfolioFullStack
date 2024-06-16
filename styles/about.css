@@ -1,4 +1,5 @@
-/* Estilos principais para a seção "about" */
+/* Styles About */
+
 .about {
     padding: 5% 10%;
     background: var(--cor-body);
@@ -9,11 +10,8 @@
     margin: 0 auto;
     padding: 20px;
     background: var(--cor-body);
-    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
-    box-shadow: 0 0 15px #720455; /* Alteração na cor do box-shadow */
-    /* sombra suave */
+    box-shadow: 0 0 15px #720455;
     border-radius: 8px;
-    /* cantos arredondados */
 }
 
 .about-title {
@@ -28,10 +26,8 @@
     font-size: 1rem;
     font-family: var(--font-two);
     line-height: 1.6;
-    /* espaçamento entre linhas */
     color: var(--cor-background);
     text-align: justify;
-    /* justificar texto */
 }
 
 /*Styles Responsive*/
@@ -39,6 +35,5 @@
 @media (max-width: 576px) {
     .about-text {
         font-size: 1rem;
-        /* Reduz o tamanho da fonte do texto */
     }
 }
