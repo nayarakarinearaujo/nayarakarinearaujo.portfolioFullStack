@@ -115,14 +115,6 @@
     color:var(--cor-text) ;
 }
 
-.close {
-    font-size: 2rem; 
-    color: var(--cor-purple); 
-    cursor: pointer; 
-    position: fixed; 
-    top: 10px; 
-    right: 10px; 
-}
 
 
 
