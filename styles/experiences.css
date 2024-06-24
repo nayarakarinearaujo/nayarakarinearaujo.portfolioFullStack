@@ -5,7 +5,7 @@
     margin: 0 auto;
     padding: 20px;
     background: var(--cor-body);
-    box-shadow: 0 0 15px #720455; 
+    box-shadow: 0 0 15px #24d4fc; 
     border-radius: 8px;
 }
 
@@ -41,7 +41,7 @@
     padding: 5px 10px;
     border-radius: 5px;
     margin-left: 10px;
-    color:var(--cor-background) ;
+    color:var(--cor-text) ;
     font-size: 0.8rem;
 }
 

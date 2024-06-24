@@ -80,19 +80,20 @@
 .contact-form input:focus,
 .contact-form textarea:focus {
     border-color: #720455;
-background: #5f0a4836;
+background: #f28ed778;
 }
 
 
 .button-contact {
-    width: 100%; 
+    width: 90%; 
     padding: 12px; 
     background-color: #720455; 
     color: #fff;
     border: none; 
     border-radius: 5px; 
     font-size: 16px; 
-    cursor: pointer; 
+    cursor: pointer;
+    margin-left: 45px;
 }
 
 .button-contact:hover {

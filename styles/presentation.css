@@ -18,12 +18,12 @@
     font-size: 2.25rem;    
     font-family: var(--font-one);
     text-align: center;
-    color: var(--cor-body);
-    
+    color: var(--cor-text);
 }
 
 .title-highlight {
     color: var(--cor-subtitle);
+    font-family: var(--font-one);
 }
 
 .presentation-text {
@@ -32,6 +32,7 @@
     text-decoration: none;
     text-align: center;
     font-weight: 500;
+    color: var(--cor-text);
 }
 
 .presentation-text a {
@@ -62,7 +63,7 @@
     transition: 0.5s;
     margin-top: 5px;
     letter-spacing: 4px;
-    box-shadow: 0 0 15px #720455; 
+    box-shadow: 0 0 15px #24d4fc; 
 }
 
 .presentation-links-button {

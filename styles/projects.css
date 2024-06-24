@@ -2,12 +2,12 @@
 
 #full-stack,
 #front-end {
-    background-color:#e9e8e8 ;
+    background-color:#000 ;
     padding-top: 10px;
 }
 
 #back-end {
-    background-color: #e6e6e6;
+    background-color: #000;
     padding-top: 10px;
 }
 
@@ -52,7 +52,7 @@
     font-family: var(--font-one);
     font-weight: 400;
     font-size: 1.5rem;
-    color: var(--cor-body);
+    color: #24d4fc;
     text-shadow: 2px 2px 4px rgba(3, 6, 55, 0.3); /* Adiciona sombra ao texto */
 
 }

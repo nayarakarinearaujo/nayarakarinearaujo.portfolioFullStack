@@ -8,7 +8,7 @@
     flex-direction: column; 
     align-items: center; 
     padding: 5% 15%;
-    box-shadow: 0 0 15px #720455;
+    box-shadow: 0 0 15px #24d4fc;
 }
 
 
@@ -25,7 +25,7 @@
 .curriculum-subtitle {
     font-size: 1.2rem;
     font-family: var(--font-one);
-    color: var(--cor-subtitle);
+    color: #24d4fc;
     text-align: center;
     align-items: center;
     margin-top: 10px;
@@ -45,7 +45,7 @@
 .curriculum-text {
     font-size: 1rem;
     font-family: var(--font-two);
-    color: var(--cor-background);
+    color: var(--cor-text);
     text-align: justify;
     list-style-image: url('circulo-preenchido.png');
     padding-left: 20px; 
