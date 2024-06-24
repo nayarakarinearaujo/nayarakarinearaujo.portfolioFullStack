@@ -72,7 +72,7 @@
     font-family: var(--font-one);
     margin-top: 0;
     margin-bottom: 5px;
-    color: var(--cor-title-highlight);
+    color: var(--cor-title);
 }
 
 .project p {
