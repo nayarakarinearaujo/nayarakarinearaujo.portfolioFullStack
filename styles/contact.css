@@ -85,7 +85,7 @@ background: #f28ed778;
 
 
 .button-contact {
-    width: 90%; 
+    width: 100%; 
     padding: 12px; 
     background-color: #720455; 
     color: #fff;
@@ -93,7 +93,6 @@ background: #f28ed778;
     border-radius: 5px; 
     font-size: 16px; 
     cursor: pointer;
-    margin-left: 45px;
 }
 
 .button-contact:hover {
