@@ -66,4 +66,5 @@ footer p {
     font-family: var(--font-two);
     font-size: 1rem;
     font-weight: 700;
+    margin-bottom: 10px;
 }
