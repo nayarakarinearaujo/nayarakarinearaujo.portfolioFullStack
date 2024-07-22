@@ -68,7 +68,8 @@
     height: auto;
 }
 
-.project h3 {
+
+.project h4, h3 {
     font-family: var(--font-one);
     margin-top: 0;
     margin-bottom: 5px;
