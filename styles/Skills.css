@@ -29,7 +29,7 @@
 .skills-line {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* Alinha os itens ao centro */
     gap: 20px;
 }
 
@@ -44,6 +44,8 @@
     justify-content: center; 
     align-items: center; 
     box-shadow: 0 0 15px #720455;
+    text-align: center; /* Garante que o texto dentro do box está centralizado */
+
 }
 
 .skills-box ul {
@@ -57,19 +59,28 @@
     margin-bottom: 10px;
 }
 
+.skills-img {
+    max-width: 80%;
+    height: auto;
+    display: block; /* Garante que a imagem é tratada como bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
 .skills-name {
-    text-align: center;
     font-size: 1rem;
     font-family: var(--font-one);
     color: var(--cor-text);
+    margin-top: 10px; /* Espaço entre a imagem e o texto */
 }
 
-.skills-img {
-    max-width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Estilo para o hr (linha horizontal) */
+.divider {
+    border: none; /* Remove as bordas padrão */
+    border-top: 1px solid #24d4fc; 
+    margin: 20px 0; /* Espaço acima e abaixo da linha */
+    width: 100%; /* Linha se estende por toda a largura do contêiner */
 }
+
 
 @media (max-width: 1200px) {
     .skills-box img {
