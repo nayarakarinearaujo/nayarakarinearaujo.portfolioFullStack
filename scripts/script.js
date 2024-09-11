@@ -34,8 +34,8 @@ function toggleMenu() {
 // Classe responsável por lidar com o formulário de contato
 class FormHandler {
     constructor() {
-        this.email = "nayarakarine.araujo@gmail.com"; // Seu email para o formulário
-        this.form = document.getElementById("contact-form"); // Obtém o formulário de contato
+        this.email = "nayarakarine.araujo@gmail.com"; 
+        this.form = document.getElementById("contact-form");
         this.form.addEventListener("submit", this.handleFormSubmit.bind(this)); // Adiciona um ouvinte de evento para o envio do formulário
     }
 
@@ -60,11 +60,7 @@ class FormHandler {
 
     // Método para enviar um email
     sendEmail(message) {
-        // Implemente a lógica para enviar um email
-        // Aqui você pode usar uma API de envio de email ou serviço semelhante
-        // Por exemplo, você pode usar o serviço Formspree ou outro serviço de email
-
-        // Exemplo com o serviço Formspree
+       
         const form = new FormData();
         form.append("message", message);
 
@@ -74,7 +70,7 @@ class FormHandler {
         })
         .then(response => {
             if (response.ok) {
-                alert("Mensagem enviada com sucesso!"); // Exibe a mensagem de sucesso
+                alert("Mensagem enviada com sucesso!"); 
             } else {
                 throw new Error("Erro ao enviar a mensagem.");
             }
